@@ -42,7 +42,6 @@ html {
 }
 body {
     background-color: var(--bg-color);
-    margin:24px 32px;
 }
 h1, h2, h3 {
     line-height: 1.2;
@@ -87,4 +86,8 @@ ul[role="list"] {
         --py-lg: 2.5rem;
         --py-xl: 5rem;       
     }
+}
+img {
+    max-width: 100%;
+    display: inline-block;
 }
